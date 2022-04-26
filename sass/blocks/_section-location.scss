@@ -1,0 +1,41 @@
+
+.section-location-title {
+    margin-top: 140px;
+}
+
+.card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 500px);
+    justify-items: center;
+
+    margin-bottom: 140px;
+}
+
+.card {
+    width: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card-title {
+
+    padding-top: 35px;
+
+    h3 {
+        font-family: 'Gelasio', serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.5;
+        text-align: center;
+        color: #000000;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+        text-align: center;
+        color: #000000;
+        opacity: 0.6;
+    }
+}

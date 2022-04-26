@@ -1,0 +1,44 @@
+.section-blog {
+    margin-top: 140px;
+}
+
+.section-blog-title {
+}
+
+.section-blog-article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin-bottom: 140px;
+}
+
+.article.main {
+    height: 665px;
+    grid-row: span 3 / auto;
+}
+
+.img-left {
+    margin-right: 27px;
+    float:left   
+}
+
+.article-title {
+    margin-top: 35px;
+    font-family: 'Gelasio', serif;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.article-subtitle {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+    opacity: 0.6;
+}
+
+.author {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    opacity: 0.8;
+}
